@@ -17,7 +17,6 @@ test(`Create Lead functionality`,async({viewLead})=>{
     await viewLead.enterMandatory(firstName,lastname,companyName)
     leadname=await viewLead.verifyLeadName()
     await viewLead.verifyTitle() 
-    console.log("Git push")
 })
 
 //Create,edit
